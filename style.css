@@ -1,0 +1,32 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #252525;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.main{
+    text-decoration-line: underline;
+    
+}
+.heading{
+    font-family: 'Lucida Handwriting', cursive, sans-serif;
+    font-weight: bold;
+    font-style: inherit;
+}
+.text-black{
+    color: black;
+}
+.main-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.image{
+    width:auto;
+    height: 100vh;
+}
